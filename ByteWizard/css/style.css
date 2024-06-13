@@ -4,6 +4,7 @@
 
 body {
     margin: 0;
+
 }
 
 /*nav*/
@@ -62,10 +63,13 @@ nav ul li span a {
 /*nav*/
 
 /*main*/
-
+    /*Seção 1*/
 #apresentacao {
     background-color: rgba(0, 0, 0, 3);
     background-image: url(../img/bg-apresentação.png);
+    background-size: cover;
+
+    box-shadow: -7px 12px 30px #4A4A4A;
 
     display: grid;
 
@@ -164,53 +168,50 @@ h4 {
     display: flex;
     align-items: center;
 }
+    /*Seção 1*/
 
-#quem-somos {
-    display: grid;
+    /*Seção 2*/
 
-    grid-template-columns: 60% 40%;
-    grid-template-rows: 32.375rem;
-    grid-template-areas: "player description";
+#main-container-quem-somos {
+    margin: 5.563rem 9.5rem;
+
+    width: 71rem;
+
+    display: flex;
+    justify-content: space-between;
 }
 
 #player {
-    grid-area: player;
-}
-
-#box-player {
-    background-color: gray;
-
     width: 34.5rem;
     height: 20.063rem;
+    border-radius: 4px;
 
-    margin: auto;
+    background-color: #6D6666;
+
+    box-shadow: 0px 3px 15px #686767;
 }
 
-#description-quem-somos {
-    grid-area: description;
+#box-description-quem-somos {
+    width: 20.5rem;
 }
 
-#box-description-title {
+#box-description-quem-somos h3 {
+    margin: 0;
+
+    font-size: 2.3rem;
     text-align: center;
-
-    border: 1px solid red;
-
-    margin: 5.5rem 4rem;
-}
-
-#box-description-title h2{
-    font-weight: bold;
-
-    margin: 0 0 1rem;
-
     color: #6D28D9;
 }
 
-#box-description {
+#box-description-quem-somos p {
+    font-size: medium;
+    font-weight: 550;
     text-align: justify;
 
-    font-weight: 500;
-
     color: #4A4A4A;
+
 }
+
+    /*Seção 2*/
+
 /*main*/
