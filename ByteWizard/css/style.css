@@ -63,13 +63,13 @@ nav ul li span a {
 /*nav*/
 
 /*main*/
-    /*Seção 1*/
+    /*Seção 1: Apresentação*/
 #apresentacao {
     background-color: rgba(0, 0, 0, 3);
     background-image: url(../img/bg-apresentação.png);
     background-size: cover;
 
-    box-shadow: -7px 12px 30px #4A4A4A;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
     display: grid;
 
@@ -168,9 +168,9 @@ h4 {
     display: flex;
     align-items: center;
 }
-    /*Seção 1*/
+    /*Seção 1: Apresentação*/
 
-    /*Seção 2*/
+    /*Seção 2*: Quem somos?*/
 
 #main-container-quem-somos {
     margin: 5.563rem 9.5rem;
@@ -179,6 +179,7 @@ h4 {
 
     display: flex;
     justify-content: space-between;
+    
 }
 
 #player {
@@ -188,7 +189,7 @@ h4 {
 
     background-color: #6D6666;
 
-    box-shadow: 0px 3px 15px #686767;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.25);
 }
 
 #box-description-quem-somos {
@@ -212,6 +213,100 @@ h4 {
 
 }
 
-    /*Seção 2*/
+    /*Seção 2: Quem somos?*/
+
+    /*Seção 3: Formações*/
+
+#formacoes .div-pai {
+    margin: 0rem 9.5rem 5.563rem;
+    width: 71rem;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 22.625rem 22.625rem;
+    gap: 2rem;
+}
+
+#formacoes h2{
+    text-align: center;
+
+    color: #6D28D9;
+
+    margin: 0px 0px 2rem;
+}
+
+#formacoes .options {
+    width: 22.210rem;
+    height: 22.530rem;
+
+    border: 1px solid #C8C8C8;
+    border-radius: 4px;
+
+    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.25);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.options-content {
+    width: 20.125rem;
+}
+
+.options-content h4 {
+    margin: 0.625rem 0rem;
+
+    font-size: 1.25rem;
+    color: #4A4A4A;
+    font-weight: bold;
+}
+
+.foto-nome-info {
+    display: flex;
+
+    gap: 0.563rem;
+}
+
+.foto-nome-info .box {
+    width: 170px;
+
+    gap: 0.063rem;
+}
+
+.options-content .foto-nome-info h5 {
+    font-size: 1rem;
+    color: #6D6666;
+
+    margin: 0;
+
+    display: inline-block;
+}
+
+.options-content .foto-nome-info p {
+    font-size: 0.875rem;
+    color: #6D6666;
+
+    margin: 0;
+    display: inline-block
+}
+
+.options-content a {
+    margin-top: 1rem;
+    padding: 0.500rem 0rem;
+    
+    border-radius: 8px;
+
+    background-color: #6D28D9;
+    color: #F3F5FA;
+
+    display: block;
+
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+    /*Seção 3: Formações*/
 
 /*main*/
