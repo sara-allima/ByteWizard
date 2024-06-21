@@ -110,7 +110,7 @@ h4 {
     font-size: 1.5rem;
     font-weight: 400;
     color: white;
-    margin: 0;
+    margin: 0 0 1rem;
 }
 
 #description {
@@ -236,6 +236,7 @@ h4 {
 
 #formacoes h2{
     text-align: center;
+    font-size: 2rem;
 
     color: #6D28D9;
 
@@ -393,5 +394,79 @@ hr {
 #conteudos #planos .box .content {
     width: 27.375rem;
 }
+
     /*Seção 4: Conteúdo*/
+
+    /*Seção 5: Depoimentos*/
+
+#depoimentos h2 {
+    text-align: center;
+    font-size: 2rem;
+
+    color: #6D28D9;
+
+    margin: 0rem 0rem 2rem;
+}
+
+#depoimentos .container {
+    width: 69.75rem;
+
+    margin: auto;
+    padding: 0;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 3.625rem 3.75rem;
+    grid-template-areas:
+    "depo1 depo2 depo3"
+    "depo4 depo5 depo6";
+}
+
+#depoimentos .box {
+    border: 1px solid #6D28D9;
+    border-radius: 4px;
+
+    background-color: #F3F5FA;
+}
+
+#depoimentos .container .content {
+    margin: 1.25rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+#depoimentos .container .content p {
+    text-align: justify;
+}
+
+#depoimentos .container .box .foto-nome-info {
+    gap: 0.875rem;
+    align-items: center;
+}
+
+#depoimentos .container .box .foto-nome-info .box {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.313rem;
+}
+
+#depoimentos .container .box .foto-nome-info .box h5 {
+    font-size: 1rem
+}
+
+#depoimentos .container .box .foto-nome-info .box p {
+    font-size: 0.75rem;
+}
+
+    /*Seção 5: Depoimentos*/
+
+    /*Seção 6: */
+
+
+    
+    /*Seção 6: */
 /*main*/
