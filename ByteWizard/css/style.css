@@ -172,7 +172,8 @@ h4 {
     /*Seção 2*: Quem somos?*/
 
 #main-container-quem-somos {
-    margin: 5.563rem 0rem;
+    width: 71rem;
+    margin: 5.563rem auto;
 
     display: flex;
     justify-content: space-around;
@@ -464,9 +465,188 @@ hr {
 
     /*Seção 5: Depoimentos*/
 
-    /*Seção 6: */
+    /*Seção 6: Perguntas Frequentes*/
 
+#perguntas .container {
+    width: 69.75rem;
+    height: 50rem;
+    padding: 0;
+    margin: auto;
 
-    
-    /*Seção 6: */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+}
+
+#box-tit-faq {
+    grid-row: 3/5;
+    grid-column: 1/8;
+}
+
+#box-tit-faq h4 {
+    color: #6D28D9;
+    font-size: 2rem;
+    font-weight: bold;
+
+    margin: 0rem 0rem 0.5rem;
+}
+
+#box-tit-faq h2 {
+    color: #6D6666;
+    font-size: 2.5rem;
+}
+
+#box-respostas {
+    grid-row: 3/14;
+    grid-column: 10/17;
+
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+#perguntas .container #box-respostas details summary {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #777777;
+
+    border-top: 1px solid #777777;
+
+    padding: 0.875rem 0;
+
+    cursor: pointer;
+
+    transition: background-color .6s;
+}
+
+#perguntas .container #box-respostas details summary:hover {
+    background-color: rgba(240, 240, 240, 0.536);
+}
+
+#perguntas .container #box-respostas details p{
+    padding-bottom: 14px;
+}
+
+#perguntas .container #box-respostas details #resposta-5 {
+    border-bottom: 1px solid #777777;
+}
+
+#box-respostas #whatsApp {
+    background: linear-gradient(100deg, #667DFF, #6D28D9);
+
+    height: 10.688rem;
+    border-radius: 8px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#box-respostas #whatsApp .box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 28rem;
+}
+
+#box-respostas #whatsApp .box .content {
+    width: 13rem;
+}
+
+#box-respostas #whatsApp .box .content h5 {
+    font-size: 1rem;
+    color: white;
+    margin: 0 0 1rem;
+}
+
+#box-respostas #whatsApp .box .content p {
+    font-size: 0.875rem;
+    color: white
+}
+
+#box-respostas #whatsApp .box a {
+    font-size: 0.875rem;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+
+    background-color: #05A081;
+    padding: 0.875rem 1rem;
+    border-radius: 8px;
+}
+    /*Seção 6: Perguntas Frequentes*/
 /*main*/
+
+/*footer*/
+footer a{
+    text-decoration: none;
+    color: #454545;
+}
+
+footer .container {
+    width: 71rem;
+
+    margin: 2.956rem auto 4.044rem;
+    padding: 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .container .content {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    
+}
+
+#social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    font-size: 1.5rem;
+}
+
+
+#social-media a {
+    display: flex;
+    color: #828282;
+
+    padding: 0.5rem;
+    border-radius: 50%;
+
+    transition: background .3s;
+}
+
+#social-media a:hover {
+    background-color: rgba(148, 148, 148, 0.258);
+
+    border-radius: 50%;
+}
+
+footer .container .box {
+    display: flex;
+    gap: 7.25rem
+}
+
+footer .container .box .foot-list ul {
+    list-style: none;
+    font-size: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+    color: #454545;
+}
+
+footer .container .box .foot-list ul .title {
+    font-weight: 600;
+}
+
+/*footer*/
