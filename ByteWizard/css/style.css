@@ -650,3 +650,91 @@ footer .container .box .foot-list ul .title {
 }
 
 /*footer*/
+
+/*Blog ------------------------------------------------------------------------------------------------*/
+
+/*main*/
+    /*Seção 1: Apresentação*/
+
+#apresentacao-blog {
+
+    height: 35rem;
+    background-image: url(../img/bg-blog.png);
+    background-size: cover;
+}
+
+#apresentacao-blog .container {
+    height: 35rem;
+
+    padding: 0;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#apresentacao-blog .container p {
+    color: white;
+    font-size: 1.5rem;
+}
+    /*Seção 1: Apresentação*/
+
+    /*Seção 2: Notícias*/
+#noticias-blog .container {
+    width: 71rem;
+    padding: 0;
+    margin: 7.563rem auto;
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 28.375rem 28.375rem 28.375rem 28.375rem;
+    gap: 4rem 4.375rem;
+    
+    grid-template-areas:
+    "main-notice main-notice"
+    "not1 not2"
+    "not3 not4"
+    "not5 not6";
+}
+
+#main-notice {
+    background-color: #05A081;
+
+    grid-area: main-notice;
+
+    border-radius: 10px;
+}
+
+.notices {
+    border-radius: 10px;
+}
+
+#notice1{
+    background-color: #00D8FF;
+}
+
+#notice2{
+    background-color: #667DFF;
+}
+
+#notice3 {
+    background-color: #6D28D9;
+}
+
+#notice4 {
+    background-color: #454545;
+}
+
+#notice5 {
+    background-color: aquamarine;
+}
+
+#notice6 {
+    background-color: blue;
+}
+    /*Seção 2: Notícias*/    
+/*main*/
+
+/*Blog ------------------------------------------------------------------------------------------------*/
