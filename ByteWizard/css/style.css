@@ -2,12 +2,16 @@
     font-family: Inter, Arial, sans-serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+}
 /*nav*/
 .container {
     padding:1rem 1.438rem 1.188rem;
@@ -708,8 +712,10 @@ footer .container .box .foot-list ul .title {
 #main-notice img {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-
-    height: 28.25rem;
+    
+    max-width: 38.25rem;
+    /*width: 100%; Por que isso não funciona?*/
+    height: 28.30rem;
 }
 
 #main-notice .content {
@@ -718,7 +724,7 @@ footer .container .box .foot-list ul .title {
 
 #main-notice .content h2 {
     font-size: 2.5rem;
-    color: #8755d4;
+    color: #6D28D9;
 
     margin-bottom: 1rem;
 }
@@ -744,32 +750,93 @@ footer .container .box .foot-list ul .title {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
     display: flex;
+    flex-direction: column;
+    gap: 2.313rem;
 }
 
-#notice1{
+.sec-notices a {
+    display: block;
+}
+.sec-notices img {
+    max-width: 33.313rem;
+    width: 100%;
+    height: auto;
 
+    border-radius: 4px;
+}
+
+.sec-notices h3 {
+    color: #6D28D9;
+    font-size: 2rem;
+}
+
+.sec-notices .content {
+    margin-left: 1.813rem;
+}
+
+.sec-notices .content span {
+    color: #6D6666;
+    font-size: 0.75rem;
+    font-weight: lighter;
+}
+
+.sec-notices .content p {
+    color: #6D6666;
+    font-size: 1rem;
+    margin-bottom: 0.75rem;
+}
+#notice1 {
+    grid-area: not1;
 }
 
 #notice2{
-
+    grid-area: not2;
 }
 
 #notice3 {
-
+    grid-area: not3;
 }
 
 #notice4 {
-
+    grid-area: not4;
 }
 
 #notice5 {
-
+    grid-area: not5;
 }
 
 #notice6 {
+    grid-area: not6;
+}
 
+#pages {
+    width: 71rem;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 3.938rem;
+}
+
+#pages a {
+    color: #6D28D9;
+    font-size: 1.5rem;
+    font-weight: 700;
 }
     /*Seção 2: Notícias*/    
 /*main*/
 
+/*footer*/
+#footer-img img {
+    max-width: 11.563rem;
+    margin-top: 3.25rem;
+}
+
+#footer-img {
+    text-align: center;
+    margin-bottom: 0.75rem;
+}
+
+#footer-img hr {
+    max-width: 13rem;
+}
+/*footer*/
 /*Blog ------------------------------------------------------------------------------------------------*/
