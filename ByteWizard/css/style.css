@@ -12,6 +12,10 @@ body {
 a {
     text-decoration: none;
 }
+
+ul {
+    list-style: none;
+}
 /*nav*/
 .container {
     padding:1rem 1.438rem 1.188rem;
@@ -27,8 +31,6 @@ header nav ul {
     display: flex;
     justify-content: right;
     gap: 3rem;
-
-    list-style: none;
 }
 
 nav li a {
@@ -36,8 +38,6 @@ nav li a {
 
     color: black;
     text-decoration: none;
-
-
 }
 
 nav ul li span {
@@ -683,6 +683,67 @@ footer .container .box .foot-list ul .title {
     font-size: 1.5rem;
 }
     /*Seção 1: Apresentação*/
+
+    /*Barra de Pesquisa*/
+#barra-assuntos {
+    border: 1px solid #6D28D9;
+    border-radius: 6px;
+    background-color: #F3F5FA;
+    height: 4.313rem;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2.25rem;
+}
+
+#barra-assuntos .input-box {
+    max-width: 18.813rem;
+    width: 100%;
+    max-height: 2.563rem;
+    height: 100%;
+
+    position: relative;
+}
+
+#barra-assuntos .input-box input {
+    width: 100%;
+    height: 100%;
+
+    background-color: #f5f5f5;
+    border: 1px solid #A8A8A8;
+    border-radius: 4px;
+}
+
+#barra-assuntos .input-box input::placeholder {
+    position: relative;
+    left: 0.688rem;
+    top: 0.125rem;
+    font-size: 0.938rem;
+}
+
+#barra-assuntos .input-box ion-icon {
+    position: absolute;
+    top: 24%;
+    right: 0.813rem;
+
+    color: #6D28D9;
+
+    width: 20px;
+    height: 20px;
+}
+
+#barra-assuntos ul{
+    display: flex;
+    gap: 3rem;
+
+    font-size: 1.25rem;
+}
+
+#barra-assuntos  ul li a {
+    color: #454545;
+}
+    /*Barra de Pesquisa*/
 
     /*Seção 2: Notícias*/
 #noticias-blog .container {
