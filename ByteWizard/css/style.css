@@ -16,6 +16,7 @@ a {
 ul {
     list-style: none;
 }
+
 /*nav*/
 .container {
     padding:1rem 1.438rem 1.188rem;
@@ -35,36 +36,29 @@ header nav ul {
 
 nav li a {
     font-size: 1.25rem;
-
     color: black;
     text-decoration: none;
 }
 
 nav ul li span {
-
     padding: 0.875rem 1.5rem;
-
     background-color: rgba(109, 40, 217, 1);
-
     border-radius: 8px;
 }
 
 nav ul li span a {
     font-size: 1rem;
-
     color: white;
 }
 
 #link-nav-matricular {
     padding: 0.875rem 1.5rem;
-
     border-radius: 0.5rem;
     border: none;
-
     background-color: #6D28D9;
     color: white;
-
 }
+
 /*nav*/
 
 /*main*/
@@ -73,11 +67,8 @@ nav ul li span a {
     background-color: rgba(0, 0, 0, 3);
     background-image: url(../img/bg-apresentação.png);
     background-size: cover;
-
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
     display: grid;
-
     grid-template-columns: 15% 70% 13.6%;
     grid-template-rows: 10rem 6.500rem 2.25rem 4rem 4.375rem 10rem;
     gap: 0.5rem;
@@ -138,36 +129,27 @@ h4 {
 #apresentacao #options ul {
     color: white;
     list-style: none;
-
     display: flex;
     flex-direction: row;
     gap: 0.563rem;
-
     padding: 0;
-    
 }
 
 #apresentacao #options ul li {
     background-color: #F3F5FA;
     color: #6D6666;
-
     border-radius: 27px;
-
     padding: 0.188rem 0.75rem;
-
     display: flex;
     align-items: center;
-    
 }
 
 #apresentacao #options ul li img {
     margin-right: 0.5rem;
 }
-
 .options-links {
     text-decoration: none;
     color: #6D6666;
-
     display: flex;
     align-items: center;
 }
@@ -178,21 +160,16 @@ h4 {
 #main-container-quem-somos {
     width: 71rem;
     margin: 5.563rem auto;
-
     display: flex;
     justify-content: space-around;
-    
 }
 
 #player {
     width: 552px;
     height: 321px;
     border-radius: 4px;
-
     background-color: #958e8e;
-
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.25);
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -204,7 +181,6 @@ h4 {
 
 #box-description-quem-somos h3 {
     margin: 0;
-
     font-size: 2.3rem;
     text-align: center;
     color: #6D28D9;
@@ -214,9 +190,7 @@ h4 {
     font-size: medium;
     font-weight: 550;
     text-align: justify;
-
     color: #4A4A4A;
-
 }
 
     /*Seção 2: Quem somos?*/
@@ -232,7 +206,6 @@ h4 {
 #formacoes .div-pai {
     margin: 0rem 9.5rem 5.563rem;
     width: 71rem;
-
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 22.625rem 22.625rem;
@@ -242,21 +215,16 @@ h4 {
 #formacoes h2{
     text-align: center;
     font-size: 2rem;
-
     color: #6D28D9;
-
     margin: 0px 0px 2rem;
 }
 
 #formacoes .options {
     width: 22.210rem;
     height: 22.530rem;
-
     border: 1px solid #C8C8C8;
     border-radius: 4px;
-
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.25);
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -268,7 +236,6 @@ h4 {
 
 .options-content h4 {
     margin: 0.625rem 0rem;
-
     font-size: 1.25rem;
     color: #4A4A4A;
     font-weight: bold;
@@ -276,29 +243,24 @@ h4 {
 
 .foto-nome-info {
     display: flex;
-
     gap: 0.563rem;
 }
 
 .foto-nome-info .box {
     width: 170px;
-
     gap: 0.063rem;
 }
 
 .options-content .foto-nome-info h5 {
     font-size: 1rem;
     color: #6D6666;
-
     margin: 0;
-
     display: inline-block;
 }
 
 .options-content .foto-nome-info p {
     font-size: 0.875rem;
     color: #6D6666;
-
     margin: 0;
     display: inline-block
 }
@@ -306,14 +268,10 @@ h4 {
 .options-content a {
     margin-top: 1rem;
     padding: 0.500rem 0rem;
-    
     border-radius: 8px;
-
     background-color: #6D28D9;
     color: #F3F5FA;
-
     display: block;
-
     text-decoration: none;
     text-align: center;
     font-weight: bold;
@@ -327,12 +285,11 @@ hr {
     width: 71rem;
     margin: auto;
 }
+
 #conteudos .container {
     margin: 4.813rem auto;
     padding: 0;
-
-    width: 71rem;
-    
+    width: 71rem;    
     display: flex;
     justify-content: space-between;
     gap: 1rem;
@@ -340,7 +297,6 @@ hr {
 
 .vantagens {
     width: 16.25rem;
-
     display: flex;
     flex-direction: column;
     gap: 0.75rem;
@@ -349,10 +305,8 @@ hr {
 .icon-vantagens {
     width: 4.625rem;
     height: 4.625rem;
-
     border-radius: 4px;
     background-color: #D9D9D9;
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -375,7 +329,6 @@ hr {
 #conteudos #planos .box {
     margin: 1.75rem;
     width: 68.563rem;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -390,7 +343,6 @@ hr {
     color: white;
     font-size: 1rem;
     text-decoration: none;
-
     padding: 0.875rem 1.5rem;
     background-color: #6D28D9;
     border-radius: 8px;
@@ -407,18 +359,14 @@ hr {
 #depoimentos h2 {
     text-align: center;
     font-size: 2rem;
-
     color: #6D28D9;
-
     margin: 0rem 0rem 2rem;
 }
 
 #depoimentos .container {
     width: 69.75rem;
-
     margin: auto;
     padding: 0;
-
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -431,13 +379,11 @@ hr {
 #depoimentos .box {
     border: 1px solid #6D28D9;
     border-radius: 4px;
-
     background-color: #F3F5FA;
 }
 
 #depoimentos .container .content {
     margin: 1.25rem;
-
     display: flex;
     flex-direction: column;
     gap: 1.25rem;
@@ -476,11 +422,9 @@ hr {
     height: 50rem;
     padding: 0;
     margin: auto;
-
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-
 }
 
 #box-tit-faq {
@@ -492,7 +436,6 @@ hr {
     color: #6D28D9;
     font-size: 2rem;
     font-weight: bold;
-
     margin: 0rem 0rem 0.5rem;
 }
 
@@ -504,7 +447,6 @@ hr {
 #box-respostas {
     grid-row: 3/14;
     grid-column: 10/17;
-
     display: flex;
     flex-direction: column;
     gap: 4rem;
@@ -514,13 +456,9 @@ hr {
     font-size: 1.4rem;
     font-weight: bold;
     color: #777777;
-
     border-top: 1px solid #777777;
-
     padding: 0.875rem 0;
-
     cursor: pointer;
-
     transition: background-color .6s;
 }
 
@@ -538,10 +476,8 @@ hr {
 
 #box-respostas #whatsApp {
     background: linear-gradient(100deg, #667DFF, #6D28D9);
-
     height: 10.688rem;
     border-radius: 8px;
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -552,7 +488,6 @@ hr {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-
     width: 28rem;
 }
 
@@ -576,7 +511,6 @@ hr {
     text-decoration: none;
     text-align: center;
     color: white;
-
     background-color: #05A081;
     padding: 0.875rem 1rem;
     border-radius: 8px;
@@ -592,10 +526,8 @@ footer a{
 
 footer .container {
     width: 71rem;
-
     margin: 2.956rem auto 4.044rem;
     padding: 0;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -605,7 +537,6 @@ footer .container .content {
     display: flex;
     flex-direction: column;
     gap: 4rem;
-    
 }
 
 #social-media {
@@ -620,16 +551,13 @@ footer .container .content {
 #social-media a {
     display: flex;
     color: #828282;
-
     padding: 0.5rem;
     border-radius: 50%;
-
     transition: background .3s;
 }
 
 #social-media a:hover {
     background-color: rgba(148, 148, 148, 0.258);
-
     border-radius: 50%;
 }
 
@@ -641,11 +569,9 @@ footer .container .box {
 footer .container .box .foot-list ul {
     list-style: none;
     font-size: 1rem;
-
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-
     color: #454545;
 }
 
@@ -661,7 +587,6 @@ footer .container .box .foot-list ul .title {
     /*Seção 1: Apresentação*/
 
 #apresentacao-blog {
-
     height: 35rem;
     background-image: url(../img/bg-blog.png);
     background-size: cover;
@@ -669,9 +594,7 @@ footer .container .box .foot-list ul .title {
 
 #apresentacao-blog .container {
     height: 35rem;
-
     padding: 0;
-    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -690,7 +613,6 @@ footer .container .box .foot-list ul .title {
     border-radius: 6px;
     background-color: #F3F5FA;
     height: 4.313rem;
-
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -702,14 +624,12 @@ footer .container .box .foot-list ul .title {
     width: 100%;
     max-height: 2.563rem;
     height: 100%;
-
     position: relative;
 }
 
 #barra-assuntos .input-box input {
     width: 100%;
     height: 100%;
-
     background-color: #f5f5f5;
     border: 1px solid #A8A8A8;
     border-radius: 4px;
@@ -726,9 +646,7 @@ footer .container .box .foot-list ul .title {
     position: absolute;
     top: 24%;
     right: 0.813rem;
-
     color: #6D28D9;
-
     width: 20px;
     height: 20px;
 }
@@ -736,7 +654,6 @@ footer .container .box .foot-list ul .title {
 #barra-assuntos ul{
     display: flex;
     gap: 3rem;
-
     font-size: 1.25rem;
 }
 
@@ -750,13 +667,10 @@ footer .container .box .foot-list ul .title {
     width: 71rem;
     padding: 0;
     margin: 7.563rem auto;
-
     display: grid;
-
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 28.375rem 28.375rem 28.375rem 28.375rem;
     gap: 4rem 4.375rem;
-    
     grid-template-areas:
     "main-notice main-notice"
     "not1 not2"
@@ -766,14 +680,12 @@ footer .container .box .foot-list ul .title {
 
 #main-notice {
     grid-area: main-notice;
-
     flex-direction: row;
 }
 
 #main-notice img {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-    
     max-width: 38.25rem;
     /*width: 100%; Por que isso não funciona?*/
     height: 28.30rem;
@@ -786,7 +698,6 @@ footer .container .box .foot-list ul .title {
 #main-notice .content h2 {
     font-size: 2.5rem;
     color: #6D28D9;
-
     margin-bottom: 1rem;
 }
 
@@ -798,18 +709,14 @@ footer .container .box .foot-list ul .title {
 #main-notice .content p {
     font-size: 1.25rem;
     color: #4A4A4A;
-
     margin-top: 0.5rem;
 }
 
 .notices {
     background-color: #F3F5FA;
-
     border-radius: 10px;
     border: 1px solid #dedede;
-
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
     display: flex;
     flex-direction: column;
     gap: 2.313rem;
@@ -818,6 +725,7 @@ footer .container .box .foot-list ul .title {
 .sec-notices a {
     display: block;
 }
+
 .sec-notices img {
     max-width: 33.313rem;
     width: 100%;
