@@ -177,10 +177,14 @@ h4 {
 
 #box-description-quem-somos {
     width: 328px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #box-description-quem-somos h3 {
-    margin: 0;
+    margin: 0 0 1rem 0;
     font-size: 2.3rem;
     text-align: center;
     color: #6D28D9;
@@ -368,8 +372,8 @@ hr {
     margin: auto;
     padding: 0;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     gap: 3.625rem 3.75rem;
     grid-template-areas:
     "depo1 depo2 depo3"
@@ -423,8 +427,8 @@ hr {
     padding: 0;
     margin: auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(13, 1fr);
 }
 
 #box-tit-faq {
@@ -489,6 +493,7 @@ hr {
     align-items: center;
     justify-content: space-between;
     width: 28rem;
+    padding: 0.5rem;
 }
 
 #box-respostas #whatsApp .box .content {
@@ -510,7 +515,7 @@ hr {
     font-size: 0.875rem;
     text-decoration: none;
     text-align: center;
-    color: white;
+    color: #fff;
     background-color: #05A081;
     padding: 0.875rem 1rem;
     border-radius: 8px;
@@ -546,7 +551,6 @@ footer .container .content {
     gap: 0.5rem;
     font-size: 1.5rem;
 }
-
 
 #social-media a {
     display: flex;
@@ -602,7 +606,7 @@ footer .container .box .foot-list ul .title {
 }
 
 #apresentacao-blog .container p {
-    color: white;
+    color: #fff;
     font-size: 1.5rem;
 }
     /*Seção 1: Apresentação*/
@@ -668,8 +672,8 @@ footer .container .box .foot-list ul .title {
     padding: 0;
     margin: 7.563rem auto;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 28.375rem 28.375rem 28.375rem 28.375rem;
+    grid-template-columns: repeat(1fr, 2);
+    grid-template-rows: repeat(1fr, 4);
     gap: 4rem 4.375rem;
     grid-template-areas:
     "main-notice main-notice"
