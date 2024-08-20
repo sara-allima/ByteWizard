@@ -818,3 +818,24 @@ footer .container .box .foot-list ul .title {
 }
 /*footer*/
 /*Blog ------------------------------------------------------------------------------------------------*/
+/*Login ------------------------------------------------------------------------------------------------*/
+main {
+    display: flex;
+}
+
+/*imagem*/
+#img-login {
+    background-image: url(../img/página-login.png);
+    background-size: cover;
+    width: 62.85%;
+    height: 100vh;
+}
+/*imagem*/
+/*forms*/
+#login {
+    width: 37.15%;
+    height: 100vh;
+    background-color: #F3F5FA;
+}
+/*forms*/
+/*Login ------------------------------------------------------------------------------------------------*/
