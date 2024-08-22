@@ -639,16 +639,17 @@ footer .container .box .foot-list ul .title {
 #barra-assuntos .input-box input {
     width: 100%;
     height: 100%;
+    padding-left: 0.688rem;
+    padding-top: 0.1rem;
+    font-size: 0.938rem;
     background-color: #f5f5f5;
     border: 1px solid #A8A8A8;
     border-radius: 4px;
 }
 
-#barra-assuntos .input-box input::placeholder {
-    position: relative;
-    left: 0.688rem;
-    top: 0.125rem;
-    font-size: 0.938rem;
+#barra-assuntos .input-box input:focus {
+    border: 2px solid #6D28D9;
+    outline: none;
 }
 
 #barra-assuntos .input-box ion-icon {
@@ -836,6 +837,60 @@ footer .container .box .foot-list ul .title {
     width: 37.15%;
     height: 100vh;
     background-color: #F3F5FA;
+    display: flex;
+    align-items: center;
+}
+
+#login .container {
+    max-width: 26.875rem;
+    width: 100%;
+    border: 1px solid red;
+    margin: auto;
+    padding: 0;
+}
+
+#login .container img{
+    max-width: 8.25rem;
+    width: 100%;
+    margin-bottom: 1.25rem;
+}
+
+#login #div-forms .box-form {
+    margin-bottom: 2.125rem;
+}
+
+#login #div-forms label {
+    color: #454545;
+    font-size: 1.25rem;
+    margin-left: 0.125rem;
+}
+
+#login #div-forms .input-box {
+    height: 2.875rem;
+    position: relative;
+}
+
+#login #div-forms .input-box input {
+    width: 100%;
+    height: 100%;
+    margin-top: 0.25rem;
+    outline: none;
+    border: 1px solid #6D28D9;
+    border-radius: 4px;
+    padding-left: 0.938rem;
+    font-size: 1rem;
+}
+
+#login #div-forms .input-box input::placeholder {
+    color: #777777;
+}
+
+#login #div-forms #senha-label-input .input-box ion-icon {
+    font-size: 1.625rem;
+    color: #6D28D9;
+    position: absolute;
+    top: 30%;
+    right: 0.938rem;
 }
 /*forms*/
 /*Login ------------------------------------------------------------------------------------------------*/
