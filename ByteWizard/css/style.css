@@ -911,4 +911,20 @@ footer .container .box .foot-list ul .title {
     color: #fff;
 }
 /*Botão*/
+
+/*Esqueceu senha*/
+#login #esqueceu-senha {
+    border: 1px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.813rem;
+    color: #6D28D9;
+}
+
+#login #esqueceu-senha a {
+    color: #6D28D9;
+    text-decoration: underline;
+}
+/*Esqueceu senha*/
 /*Login ------------------------------------------------------------------------------------------------*/
