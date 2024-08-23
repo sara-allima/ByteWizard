@@ -893,4 +893,38 @@ footer .container .box .foot-list ul .title {
     right: 0.938rem;
 }
 /*forms*/
+
+/*Botão*/
+#login #button-login {
+    background-color: #6D28D9;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    margin-top: 4rem;
+}
+
+#login #button-login p {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #fff;
+}
+/*Botão*/
+
+/*Esqueceu senha*/
+#login #esqueceu-senha {
+    border: 1px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.813rem;
+    color: #6D28D9;
+}
+
+#login #esqueceu-senha a {
+    color: #6D28D9;
+    text-decoration: underline;
+}
+/*Esqueceu senha*/
 /*Login ------------------------------------------------------------------------------------------------*/
