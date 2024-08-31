@@ -8,6 +8,7 @@
 body {
     margin: 0;
     width: 100vw;
+    overflow-x: hidden;
 }
 
 a {
@@ -69,37 +70,16 @@ nav ul li span a {
     background-image: url(../img/bg-apresentação.png);
     background-size: cover;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    display: grid;
-    grid-template-columns: 15% 70% 13.6%;
-    grid-template-rows: 10rem 6.500rem 2.25rem 4rem 4.375rem 10rem;
-    gap: 0.5rem;
-    grid-template-areas: 
-    "none-top none-top none-top"
-    "space logo logo"
-    "space-left sec-title space-right"
-    "space-left description space-right"
-    "space-left options space-right"
-    "none-bottom none-bottom none-bottom";
+    height: 45.375rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-#space-left {
-    grid-area: space-left;
-}
-
-#space-right {
-    grid-area: space-right;
-}
-
-#none-top {
-    grid-area: none-top;
-}
-
-#logo {
-    grid-area: logo;
-}
-
-#sec-title {
-    grid-area: sec-title;
+#apresentacao .container {
+    max-width: 59.563rem;
+    width: 100%;
+    padding: 0;
 }
 
 h4 {
@@ -110,17 +90,14 @@ h4 {
 }
 
 #description {
-    grid-area: description;
+    margin-top: 1rem;
+    margin-bottom: 2.188rem;
 }
 
 .p-apresentacao {
     font-size: 1.20rem;
     color: white;
     margin: 0;
-}
-
-#options {
-    grid-area: options;
 }
 
 #h4-bold {
@@ -131,7 +108,6 @@ h4 {
     color: white;
     list-style: none;
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
     gap: 0.563rem;
     padding: 0;
@@ -149,6 +125,7 @@ h4 {
 #apresentacao #options ul li img {
     margin-right: 0.5rem;
 }
+
 .options-links {
     text-decoration: none;
     color: #6D6666;
@@ -158,18 +135,16 @@ h4 {
     /*Seção 1: Apresentação*/
 
     /*Seção 2*: Quem somos?*/
-
 #main-container-quem-somos {
-    width: 100%;
+    width: 71rem;
     margin: 5.563rem auto;
     display: flex;
     justify-content: space-around;
-    gap: 2rem;
 }
 
 #player {
-    width: 40rem;
-    height: 22rem;
+    width: 552px;
+    height: 321px;
     border-radius: 4px;
     background-color: #958e8e;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.25);
@@ -199,11 +174,9 @@ h4 {
     text-align: justify;
     color: #4A4A4A;
 }
-
     /*Seção 2: Quem somos?*/
 
     /*Seção 3: Formações*/
-
 #formacoes {
     display: flex;
     flex-direction: column;
@@ -212,11 +185,10 @@ h4 {
 
 #formacoes .div-pai {
     margin: 0rem 9.5rem 5.563rem;
-    width: 100%;
+    width: 71rem;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 22.625rem);
-    place-items:center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 22.625rem 22.625rem;
     gap: 2rem;
 }
 
@@ -297,10 +269,9 @@ hr {
 #conteudos .container {
     margin: 4.813rem auto;
     padding: 0;
-    width: 71rem;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    place-items: center;
+    width: 71rem;    
+    display: flex;
+    justify-content: space-between;
     gap: 1rem;
 }
 
@@ -381,9 +352,8 @@ hr {
     grid-template-rows: repeat(2, 1fr);
     gap: 3.625rem 3.75rem;
     grid-template-areas:
-      "depo1 depo2 depo3"
-      "depo4 depo5 depo6";
-
+    "depo1 depo2 depo3"
+    "depo4 depo5 depo6";
 }
 
 #depoimentos .box {
@@ -1131,3 +1101,47 @@ footer .container .box .foot-list ul .title {
 }
 /*Sobre o Autor*/
 /*Artigo ------------------------------------------------------------------------------------------------*/
+/*Painel de Cursos --------------------------------------------------------------------------------------*/
+#header-painel-cursos {
+    background-color: #00D8FF;
+    height: 5.438rem;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+}
+
+#header-painel-cursos .container {
+    width: 100vw;
+    padding: 0;
+    margin-left: 1.563rem;
+    margin-right: 1.563rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*img*/
+#header-painel-cursos .container img {
+    max-width: 7.813rem;
+    width: 100%;
+}
+/*img*/
+
+/*Opções Alunos*/
+#header-painel-cursos .opcoes-aluno img {
+    max-width: 2rem;
+    width: 100%;
+}
+
+#header-painel-cursos .opcoes-aluno {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+#header-painel-cursos .opcoes-aluno p {
+    font-weight: bold;
+    color: #454545;
+}
+/*Opções Alunos*/
+/*Painel de Cursos --------------------------------------------------------------------------------------*/
