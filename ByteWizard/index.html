@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
@@ -12,19 +13,464 @@
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="">Sobre</a></li>
-                <li><a href="">Blog</a></li>
-                <li><a href="">Notícias</a></li>
-                <li><a href="">Entrar</a></li>
-                <li><span><a href="">Matricular-se</a></span></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <nav>
+                <div id="logo">
+                    <a href="index.html"><img src="img/logo.png" alt="logo ByteWizard" width="150"></a>
+                </div>
+                
+                <ul>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="#">Notícias</a></li>
+                    <li><a href="login.html">Entrar</a></li>
+                    <li><a id="link-nav-matricular" href="#">Matricular-se</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <main></main>
-    <footer></footer>
+    <main>
+        <section id="apresentacao">
+            <div id="none-top">
 
+            </div>
+
+            <div id="space-left">
+
+            </div>
+
+            <div id="space-right">
+
+            </div>
+
+            <div id="logo">
+                <img id="logo-apresentacao" src="img/logo-light.png" alt="logo da ByteWizard com detalhes em branco" width="350">
+            </div>
+
+            <div id="sec-title">
+                <h4>Tudo sobre Tecnologia!</h4>
+            </div>
+
+            <div id="description">
+                <p class="p-apresentacao">A plataforma completa para aprender programação do zero no seu ritmo, se tornar Full Stack e se especializar em diversas tecnologias.
+                </p>
+            </div>
+
+            <div id="options">
+                <h4 id="h4-bold">Explore nossas tecnologias ensinadas!</h4>
+
+                <ul>
+                    <li>
+                        <a href="#" class="options-links">
+                            <img src="img/java-icon.png" alt="icon da linguagem de programação Java">
+                            Java
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="options-links">
+                            <img src="img/python-icon.png" alt="icon da linguagem de programação Python">
+                            Python
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="options-links">
+                            <img src="img/html-css-js-icon.png" alt="icon da linguagem das linguagens HTML, CSS, JavaScript">
+                            HTML, CSS, JS
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="options-links">
+                            <img src="img/react-icon.png" alt="icon da linguagem de programação React">
+                            React
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="options-links">
+                            <img src="img/react-na-icon.png" alt="icon da linguagem de programação React Native">
+                            React Native
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="options-links">
+                            <img src="img/ts-icon.png" alt="icon da linguagem de programação TypeScript">
+                            TypeScript
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="none-bottom">
+
+            </div>
+        </section>
+
+        <section id="quem-somos">
+            <div id="main-container-quem-somos">
+                <div id="player">
+                    <img src="img/icon-play.png" alt="Símbolo de play roxo" width="150">                 
+                </div>
+
+                <div id="box-description-quem-somos">
+                    <h3>Quem Somos Nós</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem voluptate doloribus sit hic optio rerum quaerat, quas officia consequatur quisquam corporis, cupiditate maiores numquam laborum, ab eaque fugit deleniti vitae!</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="formacoes">
+            <h2>Conheça Nossas Formações</h2>
+
+            <div class="div-pai">
+                <div class="options">
+                    <div class="options-content">
+                        <img src="img/form-backend.png" alt="Código fonte em fundo escuro com elementos gráficos em azul e vermelho.">
+                        <h4>Formação Back-End</h4>
+                        <div class="foto-nome-info">
+                            <img src="img/foto-perfil.png" alt="" width="40">
+
+                            <div class="box">
+                                <h5>Pedro Neto</h5>
+                                <p>Desenvolvedor Back-End</p>
+                            </div> 
+                        </div>
+                        <a href="#">Ver Mais ></a>
+                    </div>
+                </div>
+                <div class="options">
+                    <div class="options-content">
+                        <img src="img/form-frontend.png" alt="Ícone de átomo com órbitas elípticas e esferas, em fundo estrelado.">
+                        <h4>Formação Front-End</h4>
+                        <div class="foto-nome-info">
+                            <img src="img/foto-perfil.png" alt="" width="40">
+
+                            <div class="box">
+                                <h5>Pedro Neto</h5>
+                                <p>Desenvolvedor Front-End</p>
+                            </div> 
+                        </div>
+                        <a href="#">Ver Mais ></a>                      
+                    </div>
+                </div>
+                <div class="options">
+                    <div class="options-content">
+                        <img src="img/form-AI.png" alt="cérebro em 2d feito de ligações digitais com elementos futuristas ao lado em um fundo escuro">
+                        <h4>Formação Inteligência Artificial</h4>
+                        <div class="foto-nome-info">
+                            <img src="img/foto-perfil.png" alt="" width="40">
+
+                            <div class="box">
+                                <h5>Pedro Neto</h5>
+                                <p>Cientista de Dados</p>
+                            </div> 
+                        </div>
+                        <a href="#">Ver Mais ></a>
+                    </div>
+                </div>
+                <div class="options">
+                    <div class="options-content">
+                        <img src="img/form-mobile.png" alt="celular desenhado em papel para arquitetura com engrenagens também desenhadas sobrepondo o celular">
+                        <h4>Formação Mobile</h4>
+                        <div class="foto-nome-info">
+                            <img src="img/foto-perfil.png" alt="" width="40">
+
+                            <div class="box">
+                                <h5>Pedro Neto</h5>
+                                <p>Desenvolvedor Mobile</p>
+                            </div> 
+                        </div>
+                        <a href="#">Ver Mais ></a>
+                    </div>
+                </div>
+                <div class="options">
+                    <div class="options-content">
+                        <img src="img/form-dataScience.png" alt="Tabela de dados apontando para um gráfico composto por colunas roxas e azuis claro intercaladas apontando para uma lâmpada, que simbolisa ideia">
+                        <h4>Formação Data Science</h4>
+                        <div class="foto-nome-info">
+                            <img src="img/foto-perfil.png" alt="" width="40">
+
+                            <div class="box">
+                                <h5>Pedro Neto</h5>
+                                <p>Cientista de Dados</p>
+                            </div> 
+                        </div>
+                        <a href="#">Ver Mais ></a>
+                    </div>
+                </div>
+                <div class="options">
+                    <div class="options-content">
+                        <img src="img/form-uiUxDesign.png" alt="Uma tela de celular com login e outra por cima mostrando um menu de opções. Ambas em tom de azul-marinho com o nome Ui & UX Design ao lado direito em um background cinza-escuro">
+                        <h4>Formação UI/UX Design</h4>
+                        <div class="foto-nome-info">
+                            <img src="img/foto-perfil.png" alt="" width="40">
+
+                            <div class="box">
+                                <h5>Pedro Neto</h5>
+                                <p>UI/UE Designer</p>
+                            </div> 
+                        </div>
+                        <a href="#">Ver Mais ></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="conteudos">
+            <hr>
+            <div class="container">
+                <div class="vantagens">
+                    <div class="icon-vantagens">
+                        <img src="img/icon-star.png" alt="Estrela roxa" width="46">
+                    </div>
+
+                    <h4>4.9 de 5</h4>
+                    
+                    <p>Essa é a média de avaliação das nossas aulas na plataforma.</p>
+                </div>
+                <div class="vantagens">
+                    <div class="icon-vantagens">
+                        <img src="img/icon-play.png" alt="Símbolo de play roxo" width="46">
+                    </div>
+
+                    <h4>+500 Aulas</h4>
+
+                    <p>Acompanhe no seu ritmo. Com atualizações inclusas na assinatura.</p>
+                </div>
+                <div class="vantagens">
+                    <div class="icon-vantagens">
+                        <img src="img/icon-clock.png" alt="Relógio roxo" width="46">
+                    </div>
+
+                    <h4>+300h de conteúdo</h4>
+
+                    <p>Os conteúdos mais completos do mercado para sair na frente de todos.</p>
+                </div>
+                <div class="vantagens">
+                    <div class="icon-vantagens">
+                        <img src="img/icon-computer.png" alt="Monitor roxo" width="46">
+                    </div>
+
+                    <h4>+60 projetos</h4>
+
+                    <p>Aprenda na prática com diversos projetos para melhorar o seu portfólio.</p>
+                </div>
+            </div>
+
+            <div class="container" id="planos">
+                <div class="box">
+                    <div class="content">
+                        <p>Transforme ou migre de carreira com a ByteWizard</p>
+                    </div>
+                    <a href="#">Planos e condições</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="depoimentos">
+            <h2>Depoimentos de alunos e alunas</h2>
+
+            <div class="container">
+                <div class="box" id="depo1">
+                    
+                    <div class="content">
+                        <p>"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit odit quo, dolores quis voluptatum fugit possimus consequuntur ullam temporibus deserunt magni nisi optio quae eius. Minima perspiciatis recusandae ipsa nam!"</p>
+
+                        <div class="foto-nome-info">
+                            <img src="img/foto-perfil-2.png" alt="Rosto de um homem sério com barba e cabelo castanho em um fundo bege" width="47">
+
+                            <div class="box">
+                                <h5>Daniel Nascimento</h5>
+
+                                <p>Aluno da ByteWizard</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box" id="depo2">
+                    <div class="content">
+                        <p>"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit odit quo, dolores quis voluptatum fugit possimus consequuntur ullam temporibus deserunt magni nisi optio quae eius. Minima perspiciatis recusandae ipsa nam!"</p>
+
+                        <div class="foto-nome-info">
+                            <img src="img/foto-perfil-2.png" alt="Rosto de um homem sério com barba e cabelo castanho em um fundo bege" width="47">
+
+                            <div class="box">
+                                <h5>Daniel Nascimento</h5>
+
+                                <p>Aluno da ByteWizard</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="box" id="depo3">
+                    <div class="content">
+                        <p>"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit odit quo, dolores quis voluptatum fugit possimus consequuntur ullam temporibus deserunt magni nisi optio quae eius. Minima perspiciatis recusandae ipsa nam!"</p>
+
+                        <div class="foto-nome-info">
+                            <img src="img/foto-perfil-2.png" alt="Rosto de um homem sério com barba e cabelo castanho em um fundo bege" width="47">
+
+                            <div class="box">
+                                <h5>Daniel Nascimento</h5>
+
+                                <p>Aluno da ByteWizard</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="box" id="depo4">
+                    <div class="content">
+                        <p>"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit odit quo, dolores quis voluptatum fugit possimus consequuntur ullam temporibus deserunt magni nisi optio quae eius. Minima perspiciatis recusandae ipsa nam!"</p>
+
+                        <div class="foto-nome-info">
+                            <img src="img/foto-perfil-2.png" alt="Rosto de um homem sério com barba e cabelo castanho em um fundo bege" width="47">
+
+                            <div class="box">
+                                <h5>Daniel Nascimento</h5>
+
+                                <p>Aluno da ByteWizard</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="box" id="depo5">
+                    <div class="content">
+                        <p>"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit odit quo, dolores quis voluptatum fugit possimus consequuntur ullam temporibus deserunt magni nisi optio quae eius. Minima perspiciatis recusandae ipsa nam!"</p>
+
+                        <div class="foto-nome-info">
+                            <img src="img/foto-perfil-2.png" alt="Rosto de um homem sério com barba e cabelo castanho em um fundo bege" width="47">
+
+                            <div class="box">
+                                <h5>Daniel Nascimento</h5>
+
+                                <p>Aluno da ByteWizard</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="box" id="depo6">
+                    <div class="content">
+                        <p>"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit odit quo, dolores quis voluptatum fugit possimus consequuntur ullam temporibus deserunt magni nisi optio quae eius. Minima perspiciatis recusandae ipsa nam!"</p>
+
+                        <div class="foto-nome-info">
+                            <img src="img/foto-perfil-2.png" alt="Rosto de um homem sério com barba e cabelo castanho em um fundo bege" width="47">
+
+                            <div class="box">
+                                <h5>Daniel Nascimento</h5>
+
+                                <p>Aluno da ByteWizard</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        
+        <section id="perguntas">
+
+            <div class="container">
+                <div id="box-tit-faq">
+                    <h4>FAQ</h4>
+                    <h2>Perguntas Frequentes</h2>
+                </div>
+
+                <div id="box-respostas">
+                    <div id="details">
+                        <details>
+                            <summary>01. O que é a ByteWizard?</summary>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla blanditiis repellat enim fugiat a quo. Perferendis, exercitationem officiis! Adipisci libero dolores eos soluta ipsa ut voluptates nesciunt quasi quae tempore!</p>
+                        </details>
+
+                        <details>
+                            <summary>02. Para quem é?</summary>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla blanditiis repellat enim fugiat a quo. Perferendis, exercitationem officiis! Adipisci libero dolores eos soluta ipsa ut voluptates nesciunt quasi quae tempore!</p>
+                        </details>
+
+                        <details>
+                            <summary>03. O que você encontra na plataforma?</summary>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla blanditiis repellat enim fugiat a quo. Perferendis, exercitationem officiis! Adipisci libero dolores eos soluta ipsa ut voluptates nesciunt quasi quae tempore!</p>
+                        </details>
+
+                        <details>
+                            <summary>04. Qual o valor?</summary>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla blanditiis repellat enim fugiat a quo. Perferendis, exercitationem officiis! Adipisci libero dolores eos soluta ipsa ut voluptates nesciunt quasi quae tempore!</p>
+                        </details>
+
+                        <details>
+                            <summary id="resposta-5">05. Tem certificado?</summary>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla blanditiis repellat enim fugiat a quo. Perferendis, exercitationem officiis! Adipisci libero dolores eos soluta ipsa ut voluptates nesciunt quasi quae tempore!</p>
+                        </details>
+                    </div> 
+
+                    <div id="whatsApp">
+                        <div class="box">
+                            <div class="content">
+                                <h5>Voce tem mais alguma duvida que não esta aqui?</h5>
+                                <p>Envie uma mensagem no nosso WhatsApp!</p>
+                            </div>
+                            <a href="#">CHAMAR NO WHATSAPP</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <hr>
+
+        <div class="container">
+            <div class="content">
+                <a href="#logo"><img src="img/logo.png" alt="logo da ByteWizard" width="100"></a>
+
+                <div id="social-media">
+                    <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-youtube"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="foot-list">
+                    <ul>
+                        <li class="title">Sobre nós</li>
+                        <li><a href="#">Informações</a></li>
+                        <li><a href="#">Informações</a></li>
+                        <li><a href="#">Informações</a></li>
+                    </ul>
+                </div>
+
+                <div class="foot-list">
+                    <ul>
+                        <li class="title">Formações</li>
+                        <li><a href="#">Formação 1</a></li>
+                        <li><a href="#">Formação 2</a></li>
+                        <li><a href="#">Formação 3</a></li>
+                    </ul>
+                </div>
+
+                <div class="foot-list">
+                    <ul>
+                        <li class="title">Suporte</li>
+                        <li><a href="#">Meios de Contato</a></li>
+                        <li><a href="#">oi@bytewizard.com.br</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
