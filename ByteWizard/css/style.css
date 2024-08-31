@@ -131,6 +131,7 @@ h4 {
     color: white;
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     gap: 0.563rem;
     padding: 0;
@@ -159,15 +160,16 @@ h4 {
     /*Seção 2*: Quem somos?*/
 
 #main-container-quem-somos {
-    width: 71rem;
+    width: 100%;
     margin: 5.563rem auto;
     display: flex;
     justify-content: space-around;
+    gap: 2rem;
 }
 
 #player {
-    width: 552px;
-    height: 321px;
+    width: 40rem;
+    height: 22rem;
     border-radius: 4px;
     background-color: #958e8e;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.25);
@@ -210,10 +212,11 @@ h4 {
 
 #formacoes .div-pai {
     margin: 0rem 9.5rem 5.563rem;
-    width: 71rem;
+    width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 22.625rem 22.625rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 22.625rem);
+    place-items:center;
     gap: 2rem;
 }
 
@@ -294,9 +297,10 @@ hr {
 #conteudos .container {
     margin: 4.813rem auto;
     padding: 0;
-    width: 71rem;    
-    display: flex;
-    justify-content: space-between;
+    width: 71rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    place-items: center;
     gap: 1rem;
 }
 
@@ -377,8 +381,9 @@ hr {
     grid-template-rows: repeat(2, 1fr);
     gap: 3.625rem 3.75rem;
     grid-template-areas:
-    "depo1 depo2 depo3"
-    "depo4 depo5 depo6";
+      "depo1 depo2 depo3"
+      "depo4 depo5 depo6";
+
 }
 
 #depoimentos .box {
