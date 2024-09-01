@@ -103,7 +103,7 @@ body {
     display: flex;
     justify-content: center;
     margin: 3.25rem 0 0 0;
-    /*margin-bottom: 3rem; Erro de barra para o lado está aqui*/
+    margin-bottom: 5.563rem; /*Erro de barra para o lado está aqui*/
     gap: 4.938rem;
 }
 
@@ -154,5 +154,86 @@ body {
 }
 /*Minhas formações*/
 /*Outras formações*/
+#outras-formacoes {
+    margin: 4rem 0 4rem 0;
+}
+#outras-formacoes h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #454545;
+    margin-bottom: 2rem;
+}
 
+#outras-formacoes p {
+    text-align: center;
+    font-size: 1.5rem;
+    color:#454545;
+}
+    /*Carrossel*/
+
+    /*Carrossel*/
+    /*footer*/
+footer {
+    width: 71rem;
+    margin: auto;
+}
+footer a{
+    text-decoration: none;
+    color: #454545;
+}
+
+footer .container {
+    width: 71rem;
+    margin: 2.956rem auto 4.044rem;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .container .content {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+#social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    font-size: 1.5rem;
+}
+
+#social-media a {
+    display: flex;
+    color: #828282;
+    padding: 0.5rem;
+    border-radius: 50%;
+    transition: background .3s;
+}
+
+#social-media a:hover {
+    background-color: rgba(148, 148, 148, 0.258);
+    border-radius: 50%;
+}
+
+footer .container .box {
+    display: flex;
+    gap: 7.25rem
+}
+
+footer .container .box .foot-list ul {
+    list-style: none;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    color: #454545;
+}
+
+footer .container .box .foot-list ul .title {
+    font-weight: 600;
+}
+    /*footer*/
 /*Outras formações*/
