@@ -1126,3 +1126,50 @@ footer .container .box .foot-list ul .title {
 }
 /*Sobre o Autor*/
 /*Artigo ------------------------------------------------------------------------------------------------*/
+/*Painel de Cursos --------------------------------------------------------------------------------------*/
+#header-painel-cursos {
+    height: 5.438rem;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+}
+
+#header-painel-cursos .container {
+    width: 100vw;
+    padding: 0;
+    margin-left: 1.563rem;
+    margin-right: 1.563rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*img*/
+#header-painel-cursos .container img {
+    max-width: 7.813rem;
+    width: 100%;
+}
+/*img*/
+
+/*Opções Alunos*/
+#header-painel-cursos .opcoes-aluno img {
+    max-width: 2rem;
+    width: 100%;
+}
+
+#header-painel-cursos .opcoes-aluno {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+#header-painel-cursos .opcoes-aluno p {
+    font-weight: bold;
+    color: #454545;
+}
+
+#header-painel-cursos .opcoes-aluno ion-icon {
+    color: #777777;
+}
+/*Opções Alunos*/
+/*Painel de Cursos --------------------------------------------------------------------------------------*/
