@@ -362,16 +362,7 @@ hr {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
-    /* grid-template-rows: repeat(2, 22.625rem); */
     place-items: center;
-    /* display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    gap: 3.625rem 3.75rem;
-    grid-template-areas:
-      "depo1 depo2 depo3"
-      "depo4 depo5 depo6"; */
-
 }
 
 #depoimentos .box {
