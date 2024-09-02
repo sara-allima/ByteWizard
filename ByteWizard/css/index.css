@@ -1,0 +1,167 @@
+@media (max-width: 415px) {
+  #depoimentos .container {
+    display: grid;
+    grid-template-columns: 1fr !important;
+    grid-template-rows: repeat(6, 1fr);
+    gap: 3.625rem 3.75rem;
+    grid-template-areas:
+      "depo1"
+      "depo2"
+      "depo3"
+      "depo4"
+      "depo5"
+      "depo6";
+  }
+  #logo {
+    grid-area: unset;
+    padding: 0 0 0 1rem;
+  }
+  #box-respostas #whatsApp .box a {
+    width: 100%;
+  }
+  #depoimentos .container {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+@media (max-width: 768px) {
+  #main-container-quem-somos {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #box-description-quem-somos {
+    width: 70%;
+    padding: 1rem 0 0 0;
+  }
+  
+  #conteudos .container {
+    width: 100%;
+    grid-template-columns: 1fr !important;
+  }
+  
+  #formacoes .div-pai {
+    grid-template-columns: repeat(1, 1fr) !important;
+    grid-template-rows: repeat(1, 22.625rem);
+    place-items: center;
+    margin: 0 0 3rem 0;
+  }
+  
+  #apresentacao #options ul {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #player {
+    width: 100%;
+  }
+  
+  #depoimentos > h2 {
+    text-align: left;
+  }
+  
+  #perguntas .container {
+    width: 100%;
+    /* margin: 2rem 0; */
+    /* height: 43rem; */
+    flex-direction: column;
+    align-items: center;
+  }
+  #box-tit-faq, #box-respostas {
+    width: 90%;
+    margin-top: 2rem;
+  }
+  
+  #box-respostas #whatsApp .box {
+    /* flex-direction: column; */
+    width: 100%;
+  }
+  #depoimentos .container {
+    width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+    "depo1"
+    "depo2"
+    "depo3"
+    "depo4"
+    "depo5"
+    "depo6";
+  }
+  footer .container .content {
+    gap: 1rem;
+  }
+  footer .container {
+    gap: 2rem;
+  }
+  .vantagens {
+    width: auto;
+  }
+  footer .container .box {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 0 0 0 1rem;
+  }
+  header nav ul {
+    flex-wrap: wrap;
+  }
+  #options {
+    display: none;
+  }
+  #depoimentos .container {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+}
+
+@media (max-width: 1024px) {
+  #conteudos .container {
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+  #planos {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #conteudos #planos .box {
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  #conteudos #planos .box .content {
+    width: 100%;
+  }
+  #conteudos #planos .box .content p {
+    padding: 0 0 0 2rem;
+  }
+  #formacoes .div-pai {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #depoimentos .container {
+    grid-template-columns: repeat(2, 1fr) !important;
+    /* grid-template-areas:
+    "depo1 depo2"
+    "depo3 depo4"
+    "depo5 depo6"; */
+    width: 100%;
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 1440px) {
+  hr {
+    width: auto;
+  }
+  footer .container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

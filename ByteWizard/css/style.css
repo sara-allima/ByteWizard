@@ -73,7 +73,7 @@ nav ul li span a {
     grid-template-columns: 15% 70% 13.6%;
     grid-template-rows: 10rem 6.500rem 2.25rem 4rem 4.375rem 10rem;
     gap: 0.5rem;
-    grid-template-areas: 
+    grid-template-areas:
     "none-top none-top none-top"
     "space logo logo"
     "space-left sec-title space-right"
@@ -131,6 +131,7 @@ h4 {
     color: white;
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     gap: 0.563rem;
     padding: 0;
@@ -159,15 +160,16 @@ h4 {
     /*Seção 2*: Quem somos?*/
 
 #main-container-quem-somos {
-    width: 71rem;
+    width: 100%;
     margin: 5.563rem auto;
     display: flex;
     justify-content: space-around;
+    gap: 2rem;
 }
 
 #player {
-    width: 552px;
-    height: 321px;
+    width: 40rem;
+    height: 22rem;
     border-radius: 4px;
     background-color: #958e8e;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.25);
@@ -210,10 +212,11 @@ h4 {
 
 #formacoes .div-pai {
     margin: 0rem 9.5rem 5.563rem;
-    width: 71rem;
+    width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 22.625rem 22.625rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 22.625rem);
+    place-items:center;
     gap: 2rem;
 }
 
@@ -294,9 +297,10 @@ hr {
 #conteudos .container {
     margin: 4.813rem auto;
     padding: 0;
-    width: 71rem;    
-    display: flex;
-    justify-content: space-between;
+    width: 71rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    place-items: center;
     gap: 1rem;
 }
 
@@ -377,8 +381,9 @@ hr {
     grid-template-rows: repeat(2, 1fr);
     gap: 3.625rem 3.75rem;
     grid-template-areas:
-    "depo1 depo2 depo3"
-    "depo4 depo5 depo6";
+      "depo1 depo2 depo3"
+      "depo4 depo5 depo6";
+
 }
 
 #depoimentos .box {
@@ -423,18 +428,15 @@ hr {
     /*Seção 6: Perguntas Frequentes*/
 
 #perguntas .container {
-    width: 69.75rem;
-    height: 50rem;
+    width: 100%;
     padding: 0;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(16, 1fr);
-    grid-template-rows: repeat(13, 1fr);
+    margin: 4rem 0;
+    display: flex;
+    justify-content: space-around;
 }
 
 #box-tit-faq {
-    grid-row: 3/5;
-    grid-column: 1/8;
+    width: 40%;
 }
 
 #box-tit-faq h4 {
@@ -450,14 +452,15 @@ hr {
 }
 
 #box-respostas {
-    grid-row: 3/14;
-    grid-column: 10/17;
     display: flex;
     flex-direction: column;
+    width: 40%;
     gap: 4rem;
+    margin-top: 4rem;
 }
 
 #perguntas .container #box-respostas details summary {
+    width: 100%;
     font-size: 1.4rem;
     font-weight: bold;
     color: #777777;
@@ -472,7 +475,7 @@ hr {
 }
 
 #perguntas .container #box-respostas details p{
-    padding-bottom: 14px;
+    padding-bottom: 0.938rem;
 }
 
 #perguntas .container #box-respostas details #resposta-5 {
@@ -800,7 +803,7 @@ footer .container .box .foot-list ul .title {
     font-size: 1.5rem;
     font-weight: 700;
 }
-    /*Seção 2: Notícias*/    
+    /*Seção 2: Notícias*/
 /*main*/
 
 /*footer*/
@@ -1114,7 +1117,7 @@ footer .container .box .foot-list ul .title {
     gap: 2rem;
     justify-content: end;
     margin: 1.188rem 3.389rem 0 0;
-    
+
 }
 #coment-like a {
     color: #6D28D9;
@@ -1126,50 +1129,3 @@ footer .container .box .foot-list ul .title {
 }
 /*Sobre o Autor*/
 /*Artigo ------------------------------------------------------------------------------------------------*/
-/*Painel de Cursos --------------------------------------------------------------------------------------*/
-#header-painel-cursos {
-    height: 5.438rem;
-    width: 100vw;
-    display: flex;
-    align-items: center;
-}
-
-#header-painel-cursos .container {
-    width: 100vw;
-    padding: 0;
-    margin-left: 1.563rem;
-    margin-right: 1.563rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-/*img*/
-#header-painel-cursos .container img {
-    max-width: 7.813rem;
-    width: 100%;
-}
-/*img*/
-
-/*Opções Alunos*/
-#header-painel-cursos .opcoes-aluno img {
-    max-width: 2rem;
-    width: 100%;
-}
-
-#header-painel-cursos .opcoes-aluno {
-    display: flex;
-    align-items: center;
-    gap: 0.75rem;
-}
-
-#header-painel-cursos .opcoes-aluno p {
-    font-weight: bold;
-    color: #454545;
-}
-
-#header-painel-cursos .opcoes-aluno ion-icon {
-    color: #777777;
-}
-/*Opções Alunos*/
-/*Painel de Cursos --------------------------------------------------------------------------------------*/
