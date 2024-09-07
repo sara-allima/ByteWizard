@@ -7,12 +7,10 @@
 
 body {
     margin: 0;
-    width: 100vw;
 }
 
 #header-painel-cursos {
     height: 5.438rem;
-    width: 100vw;
     display: flex;
     align-items: center;
 }
@@ -20,8 +18,8 @@ body {
 #header-painel-cursos .container {
     width: 100vw;
     padding: 0;
-    margin-left: 1.563rem;
-    margin-right: 1.563rem;
+    margin: auto 1.563rem;
+    /* margin-right: 1.563rem; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -56,7 +54,9 @@ body {
 }
 /*Opções Alunos*/
 #meus-cursos {
-    border: 1px solid red;
+    border: 1px solid #F3F5FA;
+    border-radius: 4px;
+    padding: 2rem;
     max-width: 66rem;
     width: 100%;
     margin: auto;
@@ -74,6 +74,7 @@ body {
 }
 
 #boas-vindas img {
+    max-height: 2.875rem;
     max-width: 2.875rem;
     width: 100%;
 }
@@ -95,13 +96,13 @@ body {
 
 #minhas-formacoes > p {
     font-size: 1.5rem;
-    color:#454545;
-    margin-left: 3.063rem;
+    color: #454545;
+    margin-left: 2.063rem;
 }
 
 #minhas-formacoes .container {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     margin: 3.25rem 0 0 0;
     margin-bottom: 5.563rem; /*Erro de barra para o lado está aqui*/
     gap: 4.938rem;
@@ -188,8 +189,8 @@ footer a{
 
 footer .container {
     width: 100%;
-    margin: 2.956rem auto 4.044rem;
-    padding: 0;
+    margin: 2.956rem auto 2.044rem;
+    padding: 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -224,7 +225,7 @@ footer .container .content {
 
 footer .container .box {
     display: flex;
-    gap: 7.25rem
+    gap: 4.25rem;
 }
 
 footer .container .box .foot-list ul {
@@ -243,6 +244,12 @@ footer .container .box .foot-list ul .title {
 /*Outras formações*/
 
   
+@media (max-width: 477px) {
+    #boas-vindas img {
+        width: 2.5rem; 
+        height: 2.5rem; 
+    }
+}
 @media (max-width: 768px) {
     footer .container .content {
       gap: 1rem;
@@ -253,8 +260,10 @@ footer .container .box .foot-list ul .title {
 
     footer .container .box {
       flex-wrap: wrap;
-      justify-content: flex-start;
-      padding: 0 0 0 1rem;
+      justify-content: center;
+    }
+    #meus-cursos {
+        padding: 1rem;
     }
   }
   
