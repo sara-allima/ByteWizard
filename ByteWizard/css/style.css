@@ -7,7 +7,6 @@
 
 body {
     margin: 0;
-    width: 100vw;
 }
 
 a {
@@ -72,17 +71,6 @@ nav ul li span a {
     background-size: cover;
     width: 100%;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    /* display: grid;
-    grid-template-columns: 15% 70% 13.6%;
-    grid-template-rows: 10rem 6.500rem 2.25rem 4rem 4.375rem 10rem;
-    gap: 0.5rem;
-    grid-template-areas:
-    "none-top none-top none-top"
-    "space logo logo"
-    "space-left sec-title space-right"
-    "space-left description space-right"
-    "space-left options space-right"
-    "none-bottom none-bottom none-bottom"; */
 }
 
 h4 {
@@ -196,10 +184,9 @@ h4 {
 #formacoes .div-pai {
     margin: 0rem 9.5rem 5.563rem;
     width: 100%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 22.625rem);
-    place-items:center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
     gap: 2rem;
 }
 
@@ -280,15 +267,15 @@ hr {
 #conteudos .container {
     margin: 4.813rem auto;
     padding: 0;
-    width: 71rem;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    place-items: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
     gap: 1rem;
 }
 
 .vantagens {
-    width: 16.25rem;
+    max-width: 16.25rem;
     display: flex;
     flex-direction: column;
     gap: 0.75rem;
@@ -319,14 +306,15 @@ hr {
 }
 
 #conteudos #planos .box {
-    margin: 1.75rem;
-    width: 68.563rem;
+    padding: 1.75rem;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 #conteudos #planos .box .content p {
+    max-width: 21rem;
     font-size: 1.5rem;
     color: white;
 }
@@ -341,7 +329,7 @@ hr {
 }
 
 #conteudos #planos .box .content {
-    width: 27.375rem;
+    width: 100%;
 }
 
     /*Seção 4: Conteúdo*/
@@ -356,19 +344,20 @@ hr {
 }
 
 #depoimentos .container {
-    width: 69.75rem;
+    width: 100%;
     margin: auto;
     padding: 0;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
     gap: 2rem;
-    place-items: center;
 }
 
 #depoimentos .box {
     border: 1px solid #6D28D9;
     border-radius: 4px;
     background-color: #F3F5FA;
+    width: 20.75rem;
 }
 
 #depoimentos .container .content {
@@ -513,9 +502,8 @@ footer a{
 }
 
 footer .container {
-    width: 71rem;
-    margin: 2.956rem auto 4.044rem;
-    padding: 0;
+    width: 100%;
+    padding: 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -550,7 +538,7 @@ footer .container .content {
 
 footer .container .box {
     display: flex;
-    gap: 7.25rem
+    gap: 4.25rem;
 }
 
 footer .container .box .foot-list ul {
