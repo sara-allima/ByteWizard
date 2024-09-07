@@ -63,12 +63,12 @@
   
   #depoimentos > h2 {
     text-align: left;
+    margin: 0 0 2rem 2rem;
   }
   
   #perguntas .container {
     width: 100%;
-    /* margin: 2rem 0; */
-    /* height: 43rem; */
+    padding: 0 2rem;
     flex-direction: column;
     align-items: center;
   }
@@ -78,20 +78,13 @@
   }
   
   #box-respostas #whatsApp .box {
-    /* flex-direction: column; */
     width: 100%;
   }
   #depoimentos .container {
     width: 100%;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-template-areas:
-    "depo1"
-    "depo2"
-    "depo3"
-    "depo4"
-    "depo5"
-    "depo6";
+    grid-template-columns: repeat(1, 1fr) !important;
+    place-items: center;
+    margin: 0 0 3rem 0;
   }
   footer .container .content {
     gap: 1rem;
@@ -114,9 +107,11 @@
     display: none;
   }
   #depoimentos .container {
-    grid-template-columns: repeat(2, 1fr) !important;
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr) !important;
+    place-items: center;
+    margin: 0 0 3rem 0;
   }
-
 }
 
 @media (max-width: 1024px) {
@@ -145,11 +140,8 @@
     grid-template-columns: repeat(2, 1fr);
   }
   #depoimentos .container {
-    grid-template-columns: repeat(2, 1fr) !important;
-    /* grid-template-areas:
-    "depo1 depo2"
-    "depo3 depo4"
-    "depo5 depo6"; */
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 2rem;
     width: 100%;
     gap: 1rem;
   }
