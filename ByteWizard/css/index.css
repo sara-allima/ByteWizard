@@ -7,10 +7,6 @@
   --gap-large: 3rem;
 }
 
-#logo img {
-  width: 100%;
-}
-
 #box-respostas #whatsApp .box a {
   width: 100%;
 }
@@ -34,6 +30,9 @@
 
   #box-respostas #whatsApp .box a,
   #box-respostas #whatsApp .box .content {
+    width: 100%;
+  }
+  #logo img {
     width: 100%;
   }
 }
