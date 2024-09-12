@@ -588,6 +588,7 @@ footer .container .box .foot-list ul .title {
     border-radius: 6px;
     background-color: #F3F5FA;
     height: 4.313rem;
+    width: calc(100% - 10px);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -644,7 +645,7 @@ footer .container .box .foot-list ul .title {
 
     /*Seção 2: Notícias*/
 #noticias-blog .container {
-    width: 71rem;
+    width: 100%;
     padding: 0;
     margin: 7.563rem auto;
     display: grid;
@@ -666,9 +667,8 @@ footer .container .box .foot-list ul .title {
 #main-notice img {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-    max-width: 38.25rem;
-    /*width: 100%; Por que isso não funciona?*/
-    height: 28.30rem;
+    width: 100%;
+    height: auto;
 }
 
 #main-notice .content {
@@ -707,10 +707,8 @@ footer .container .box .foot-list ul .title {
 }
 
 .sec-notices img {
-    max-width: 33.313rem;
     width: 100%;
     height: auto;
-
     border-radius: 4px;
 }
 
