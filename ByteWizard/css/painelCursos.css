@@ -100,26 +100,27 @@ body {
     margin-left: 2.063rem;
 }
 
-#minhas-formacoes .container {
+#minhas-formacoes .container, #outras-formacoes .container {
     display: flex;
     justify-content: space-evenly;
     margin: 3.25rem 0 0 0;
     margin-bottom: 5.563rem; /*Erro de barra para o lado está aqui*/
     gap: 4.938rem;
+    padding: 0 1rem;
     overflow-x: auto;
 }
-#minhas-formacoes .container::-webkit-scrollbar { 
+#minhas-formacoes .container::-webkit-scrollbar, #outras-formacoes .container::-webkit-scrollbar { 
 	display: none;
 }
 
-#minhas-formacoes .options {
+#minhas-formacoes .options, #outras-formacoes .container > .options {
     background-color: #F3F5FA;
     padding: 1.563rem;
     border-radius: 4px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-#minhas-formacoes .options .options-content h4{
+#minhas-formacoes .options .options-content h4, #outras-formacoes .container > .options .options-content h4{
     font-size: 1.25rem;
     color: #4A4A4A;
     margin-top: 0.625rem;
@@ -169,7 +170,7 @@ body {
     margin-bottom: 2rem;
 }
 
-#outras-formacoes p {
+#outras-formacoes > p {
     text-align: center;
     font-size: 1.5rem;
     color:#454545;
