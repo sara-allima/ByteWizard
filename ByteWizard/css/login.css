@@ -84,6 +84,11 @@
   align-items: center;
   border-radius: 4px;
   margin-top: 3rem;
+  transition: background 0.9;
+}
+
+#login #button-login:hover {
+  background-color: #6631bbee;
 }
 
 #login #button-login p {
