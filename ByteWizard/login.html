@@ -4,26 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/login.css">
     <title>Login</title>
 </head>
 <body>
     <main id="main-login">
-        <div id="img-login">     
+        <div id="img-login">
         </div>
-    
+
         <section id="login">
             <div class="container">
                 <a href="index.html"><img src="img/logo.png" alt=""></a>
 
                 <div id="div-forms">
-                    <form action="">
+                    <form action="index.html" method="post">
                         <div id="email-label-input" class="box-form">
                             <label for="">EMAIL</label>
                             <div class="input-box">
                                 <input class="input-forms" placeholder="Email Cadastrado" type="email">
                             </div>
                         </div>
-
                         <div id="senha-label-input" class="box-form">
                             <label for="">SENHA</label>
                             <div class="input-box">
@@ -31,6 +31,26 @@
                                 <ion-icon name="eye-outline"></ion-icon>
                             </div>
                         </div>
+                        <a id="botao-login" href="painelCursos.html">
+                            <div id="button-login">
+                                <p>Logar</p>
+                            </div>
+                        </a>
+
+                        <div id="esqueceu-senha">
+                            <p>Esqueceu a senha? <a href="#">Clique aqui para recuperar</a></p>
+                        </div>
+
+                        <div id="social-media">
+                            <p>Se preferir, realize o login social</p>
+
+                            <div id="logos-sociais">
+                                <a href="#"><ion-icon name="logo-github"></ion-icon></a>
+                                <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+                                <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                            </div>
+                        </div>
+                    </div>
                     </form>
                 </div>
             </div>
