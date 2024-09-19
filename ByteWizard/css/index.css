@@ -7,6 +7,10 @@
   --gap-large: 3rem;
 }
 
+/* #logo img {
+  width: auto;
+} */
+
 #box-respostas #whatsApp .box a {
   width: 100%;
 }

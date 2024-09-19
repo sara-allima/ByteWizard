@@ -1,0 +1,239 @@
+.wrapper-content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.mainContent {
+  max-width: 75rem;
+  width: calc(100% - 3rem);
+
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  column-gap: 1.88rem;
+
+  margin: 0 0 11.5rem 0;
+}
+
+.mainContent-videoSide__video {
+  position: relative;
+
+  width: 100%;
+}
+
+.mainContent-videoSide__video__playIconWrapper {
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.mainContent-videoSide__video__playIconWrapper > img {
+  width: 20%;
+}
+
+.mainContent-videoSide__title {
+  color: #6d28d9;
+  font-family: Inter;
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.0375rem;
+  height: 3.125rem;
+
+  margin: 0.5rem 0 0 0;
+}
+
+.mainContent-videoSide__authorDiv {
+  height: 4rem;
+
+  display: flex;
+  align-items: center;
+
+  margin: 1rem 0 0 0;
+}
+
+.mainContent-videoSide__video__thumbnail {
+  max-height: 32rem;
+  width: 100%;
+  object-fit: contain;
+}
+
+.mainContent-videoSide__authorDiv__image {
+  width: 4rem;
+  height: 4rem;
+}
+
+.mainContent-videoSide__authorDiv__author {
+  margin: 0 0 0 1.12rem;
+}
+
+.mainContent-videoSide__authorDiv__author__name {
+  color: #6d28d9;
+  font-family: Inter;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+.mainContent-videoSide__authorDiv__author__position {
+  color: #454545;
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.topicDivWrapper {
+  height: 32rem;
+
+  overflow-y: auto;
+}
+
+.topicDivWrapper::-webkit-scrollbar {
+  width: 1.375rem;
+}
+
+.topicDivWrapper::-webkit-scrollbar-track {
+  background: #e8e8e8;
+}
+
+.topicDivWrapper::-webkit-scrollbar-thumb {
+  background-color: #6d28d9;
+  border-radius: 6px;
+  border: 0.3rem solid #e8e8e8;
+}
+
+.topicDiv + .topicDiv {
+  margin: 1.13rem 0 0 0;
+}
+
+.topicDiv-mainShower {
+  height: 4.125rem;
+
+  border-radius: 4px;
+  border: 1px solid #6d28d9;
+
+  display: grid;
+  grid-template-columns: 2.875fr 12fr 1.44fr;
+  align-items: center;
+  column-gap: 0.81rem;
+
+  padding: 0.69rem 0.81rem;
+
+  cursor: pointer;
+}
+
+.topicDiv-mainShower__topicNumber {
+  width: 2.875rem;
+  height: 2.875rem;
+
+  border: solid 2px #f3f5fa;
+  border-radius: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #6d28d9;
+  -webkit-text-stroke-width: 2;
+  -webkit-text-stroke-color: #f3f5fa;
+  font-family: Inter;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+.topicDiv-mainShower__dataDiv__name {
+  color: #6d28d9;
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+.topicDiv-mainShower__dataDiv__duration {
+  color: #828282;
+  font-family: Inter;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.topicDiv-mainShower__arrow {
+  width: 1.125rem;
+  height: 1.75rem;
+}
+
+.topicDiv-lessonsListDiv {
+  background: #f3f5fa;
+  -webkit-transition: max-height 0.5s;
+  -moz-transition: max-height 0.5s;
+  -ms-transition: max-height 0.5s;
+  -o-transition: max-height 0.5s;
+  transition: max-height 0.5s;
+  overflow: hidden;
+  max-height: 1000px;
+}
+
+.topicDiv-lessonsListDiv.--close {
+  max-height: 0px;
+}
+
+.topicDiv-lessonsListDiv > li {
+  display: grid;
+  grid-template-columns: 24fr 258fr 24fr;
+  column-gap: 0.7rem;
+  align-items: center;
+
+  height: 2.5rem;
+
+  margin: 0 0.69rem 0 1.13rem;
+}
+
+.feedbackDiv {
+  border-radius: 0.25rem;
+  border: 1px solid #6d28d9;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  height: 6.9375rem;
+  width: 100%;
+
+  margin: 2.88rem 0 0 0;
+}
+
+.topicDiv-feedbackDiv__question {
+  color: #4a4a4a;
+  font-family: Inter;
+  font-size: 1.15rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+
+  text-align: center;
+
+  margin: 0 0 0.5rem 0;
+}
+
+@media (max-width: 769px) {
+  .mainContent {
+    grid-template-columns: 1fr;
+  }
+
+  .topicDivWrapper  {
+    margin-top: 2rem;
+  }
+}
